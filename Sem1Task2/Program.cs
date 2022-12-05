@@ -15,16 +15,17 @@ if(input1!=null&&input2!=null) //проверим, что значения не 
     Console.WriteLine(num1 + " больше чем "+ num2);
     }
     else
-    {
-        if(num1=num2)
+    
+        if(num1==num2)
         {
         Console.WriteLine(num2 + " равно "+ num1);
         }
-    }
-    else
-    {
-        if(num1<num2)
+    
 
+    else
+    
+        if(num1<num2)
+        {
         Console.WriteLine(num2 + " больше чем "+ num1);
-    }
+        }
 }

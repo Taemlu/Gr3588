@@ -1,5 +1,5 @@
-﻿string num1Line = Console.ReadLine();
-string num2Line = Console.ReadLine();
+﻿string? num1Line = Console.ReadLine();
+string? num2Line = Console.ReadLine();
 
 if(num1Line!=null&&num2Line!=null)  //проверили, что числа не нулевые, что есть значение
 {
